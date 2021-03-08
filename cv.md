@@ -33,10 +33,8 @@
 
 	<h2>Code examples</h2>
 	<code>
-	```javascript
 	var s = "JavaScript syntax highlighting";
 	alert(s);
-	```
 	</code>
 
         <h2>Experience</h2>
