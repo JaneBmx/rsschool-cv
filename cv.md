@@ -1,56 +1,50 @@
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>CV</title>
-    </head>
+#Yana Vlasova
 
-    <body>
-        <h1>Yana Vlasova</h1>
+---
+##Contact info
+ - Email: janeridebmx@gmail.com
+ - Phone: +375 33 6813328   
+ - [Telegram](https://t.me/bubalehich)
 
-        <h2>Contact info</h2>
-        <ul>
-            <li><strong>Telegram:</strong> https://t.me/bubalehich</li>
-            <li><strong>Email:</strong> janeridebmx@gmail.com</li>
-            <li><strong>Phone:</strong> +375 33 6813328</li>
-        </ul>
+##Skills
+ * PHP 7.4
+ * Symfony
+ * Sonata Admin
+ * Java 8
+ * Servlets & JSP
+ * JDBC
+ * JUnit
+ * Docker
+ * Postman
+ * MySql
+ * PostgreSQL
+ * Git
+ * OOP
 
-        <h2>Skills</h2>
-        <ul>
-            <li>PHP 7.4</li>
-            <li>Symfony</li>
-            <li>Sonata Admin</li>
-            <li>Java 8</li>
-            <li>Servlets & JSP</li>
-            <li>JDBC</li>
-            <li>JUnit</li>
-            <li>Docker</li>
-            <li>Postman</li>
-            <li>MySql</li>
-            <li>PostgreSQL</li>
-            <li>Git</li>
-            <li>OOP</li>
-        </ul>
+##Code examples
+```js
+const fs = require('fs');
+const crypto = require('crypto');
+const files = fs.readdirSync(process.cwd());
+files.forEach(file => {
+    fs.readFile(file, function (err, data) {
+        if (err) {
+            console.error(err);
+        } else {
+            console.log(crypto.createHash('sha3-256')
+                .update(data)
+                .digest('hex') + ' ' + file);
+        }
+    })
+})
+```
 
-	<h2>Code examples</h2>
-	<code>
-	var s = "JavaScript syntax highlighting";
-	alert(s);
-	</code>
+##Experience
+ * Web dev on Java EE & PHP (Symfony)
+    
+##Education
+ * BSUIR (Faculty of Infocommunications, 2022)
+ * Java Web Development Training (Epam, 2020)
 
-        <h2>Experience</h2>
-        <ul>
-            <li>Web dev on Java EE & PHP (Symfony)</li>
-        </ul>
-
-        <h2>Education</h2>
-        <ul>
-            <li>BSUIR (Faculty of Infocommunications, 2022)</li>
-            <li>Java Web Development Training (Epam, 2020)</li>
-        </ul>
-
-        <h2>English level</h2>
-        <ul>
-            <li>Pre-Intermediate +</li>
-        </ul>
-    </body>
-</html>
+##English level
+ * Pre-Intermediate +
