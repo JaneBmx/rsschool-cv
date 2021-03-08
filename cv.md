@@ -1,12 +1,12 @@
-#Yana Vlasova
+# Yana Vlasova
 
 ---
-##Contact info
+## Contact info
  - Email: janeridebmx@gmail.com
  - Phone: +375 33 6813328   
  - [Telegram](https://t.me/bubalehich)
 
-##Skills
+## Skills
  * PHP 7.4
  * Symfony
  * Sonata Admin
@@ -21,7 +21,7 @@
  * Git
  * OOP
 
-##Code examples
+## Code examples
 ```js
 const fs = require('fs');
 const crypto = require('crypto');
@@ -39,12 +39,12 @@ files.forEach(file => {
 })
 ```
 
-##Experience
+## Experience
  * Web dev on Java EE & PHP (Symfony)
     
-##Education
+## Education
  * BSUIR (Faculty of Infocommunications, 2022)
  * Java Web Development Training (Epam, 2020)
 
-##English level
+## English level
  * Pre-Intermediate +
