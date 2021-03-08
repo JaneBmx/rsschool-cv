@@ -31,6 +31,14 @@
             <li>OOP</li>
         </ul>
 
+	<h2>Code examples</h2>
+	<ul>
+	```javascript
+	var s = "JavaScript syntax highlighting";
+	alert(s);
+	```
+	</ul>
+
         <h2>Experience</h2>
         <ul>
             <li>Web dev on Java EE & PHP (Symfony)</li>
