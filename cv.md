@@ -32,12 +32,12 @@
         </ul>
 
 	<h2>Code examples</h2>
-	<ul>
+	<code>
 	```javascript
 	var s = "JavaScript syntax highlighting";
 	alert(s);
 	```
-	</ul>
+	</code>
 
         <h2>Experience</h2>
         <ul>
